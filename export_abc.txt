@@ -1,4 +1,3 @@
-```python
 import bpy
 import os
 import pprint
@@ -61,4 +60,4 @@ for obj in view_layer.objects:
                 # Export animation to Alembic
                 export_filepath = os.path.join(export_dir, f"{obj.name}.abc")
                 export_animation_alembic(filepath=export_filepath, frame_in=frame_start, frame_out=frame_end, subdiv=False)
-```
+
