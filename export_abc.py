@@ -1,12 +1,3 @@
-```python
-
-Example of Python code
-def greet(name):
-print(f"Hello, {name}!")
-
-greet("World")
-```
-
 import bpy
 import os
 import pprint
